@@ -1,0 +1,32 @@
+/********************************************************************************
+* This program demonstrates use of parallel ports in the DE10-Standard
+* It performs the following:
+* 1. Displays a counting on the first 7-Segment Display
+********************************************************************************/
+#include <stdio.h>
+#include "io.h"
+
+int main(void)
+{/* Declare volatile pointers to I/O registers (volatile means that IO load and store
+instructions (e.g., ldwio, stwio) will be used to access these pointer locations) */
+	int key_value, numero=0;
+	int * key_ptr = (int *) 0x4041020; // pushbutton KEY address
+	int * switches = (int *) 0x4041030; // Switches address
+	int * memoria = (int *) 0x00; // SDRAM address
+	volatile int delay_count; // volatile so C compile does not remove loop
+	printf("Programación Exitosa NIOS1\n");
+	usleep(200000);
+	while(1){
+		key_value = *(key_ptr); // read the pushbutton KEY values
+		IOWR(memoria,0x00,*(switches));
+		if (key_value == 6) // check if KEY1 was pressed
+		{/* counting on the 7-Segment Display */
+			numero++;
+			if(numero>9)
+				numero=0;
+			IOWR(memoria,0x01,numero);
+			while (*key_ptr==6); // wait for pushbutton KEY1 release
+		}
+
+	}
+}

@@ -1,0 +1,231 @@
+15:27:18 **** Incremental Build of configuration Nios II for project aux2 ****
+make all 
+Info: Building ../aux2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../aux2_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../aux2_bsp//HAL/inc -I../aux2_bsp/ -I../aux2_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:41:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^
+Info: Linking aux2.elf
+nios2-elf-g++  -T'../aux2_bsp//linker.x' -msys-crt0='../aux2_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../aux2_bsp/   -Wl,-Map=aux2.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o aux2.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert aux2.elf --thread_model hal --cpu_name Procesador2 --qsys true --simulation_enabled false --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE" --jdi ../..//output_files/ACTIVIDAD5.jdi --sopcinfo C:/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2_bsp/../../SISTEMA.sopcinfo
+Info: (aux2.elf) 70 KBytes program size (code + initialized data).
+Info:            65527 KBytes free for stack + heap.
+Info: Creating aux2.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source aux2.elf >aux2.objdump
+[aux2 build complete]
+15:27:25 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:27:32 **** Incremental Build of configuration Nios II for project aux2 ****
+make all 
+Info: Building ../aux2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../aux2_bsp/
+[BSP build complete]
+[aux2 build complete]
+15:30:12 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:30:19 **** Incremental Build of configuration Nios II for project aux2 ****
+make all 
+Info: Building ../aux2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../aux2_bsp/
+[BSP build complete]
+[aux2 build complete]
+15:31:50 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:31:57 **** Incremental Build of configuration Nios II for project aux2 ****
+make all 
+Info: Building ../aux2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../aux2_bsp/
+[BSP build complete]
+[aux2 build complete]
+15:34:58 **** Incremental Build of configuration Nios II for project aux2 ****
+make all 
+Info: Building ../aux2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../aux2_bsp/
+[BSP build complete]
+[aux2 build complete]
+15:35:00 **** Incremental Build of configuration Nios II for project aux2_bsp ****
+make all 
+[BSP build complete]
+15:35:01 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:35:02 **** Incremental Build of configuration Nios II for project prueba1_bsp ****
+make all 
+[BSP build complete]
+15:35:03 **** Incremental Build of configuration Nios II for project prueba2 ****
+make all 
+Info: Building ../prueba2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba2_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../prueba2_bsp//HAL/inc -I../prueba2_bsp/ -I../prueba2_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'tansig':
+hello_world.c:37:27: warning: implicit declaration of function 'exp' [-Wimplicit-function-declaration]
+     float tansigout=(2/(1+exp(-2*input1))-1);
+                           ^
+hello_world.c:37:27: warning: incompatible implicit declaration of built-in function 'exp'
+hello_world.c:37:27: note: include '<math.h>' or provide a declaration of 'exp'
+hello_world.c: In function 'main':
+hello_world.c:134:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^
+Info: Linking prueba2.elf
+nios2-elf-g++  -T'../prueba2_bsp//linker.x' -msys-crt0='../prueba2_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../prueba2_bsp/   -Wl,-Map=prueba2.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o prueba2.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert prueba2.elf --thread_model hal --cpu_name Procesador2 --qsys true --simulation_enabled false --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE" --jdi ../..//output_files/ACTIVIDAD5.jdi --sopcinfo C:/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2_bsp/../../SISTEMA.sopcinfo
+Info: (prueba2.elf) 81 KBytes program size (code + initialized data).
+Info:               65527 KBytes free for stack + heap.
+Info: Creating prueba2.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source prueba2.elf >prueba2.objdump
+[prueba2 build complete]
+15:35:06 **** Incremental Build of configuration Nios II for project prueba2_bsp ****
+make all 
+[BSP build complete]
+15:35:11 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:35:18 **** Incremental Build of configuration Nios II for project aux2 ****
+make all 
+Info: Building ../aux2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../aux2_bsp/
+[BSP build complete]
+[aux2 build complete]
+15:35:58 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:36:04 **** Incremental Build of configuration Nios II for project prueba2 ****
+make all 
+Info: Building ../prueba2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba2_bsp/
+[BSP build complete]
+[prueba2 build complete]
+15:38:27 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:38:35 **** Incremental Build of configuration Nios II for project aux2 ****
+make all 
+Info: Building ../aux2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../aux2_bsp/
+[BSP build complete]
+[aux2 build complete]
+15:39:47 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:39:54 **** Incremental Build of configuration Nios II for project prueba2 ****
+make all 
+Info: Building ../prueba2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba2_bsp/
+[BSP build complete]
+[prueba2 build complete]
+15:42:28 **** Incremental Build of configuration Nios II for project aux2 ****
+make all 
+Info: Building ../aux2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../aux2_bsp/
+[BSP build complete]
+[aux2 build complete]
+15:42:29 **** Incremental Build of configuration Nios II for project aux2_bsp ****
+make all 
+[BSP build complete]
+15:42:30 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../prueba1_bsp//HAL/inc -I../prueba1_bsp/ -I../prueba1_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:56:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^
+Info: Linking prueba1.elf
+nios2-elf-g++  -T'../prueba1_bsp//linker.x' -msys-crt0='../prueba1_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../prueba1_bsp/  -msmallc  -Wl,-Map=prueba1.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o prueba1.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert prueba1.elf --thread_model hal --cpu_name Procesador1 --qsys true --simulation_enabled false --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE" --jdi ../..//output_files/ACTIVIDAD5.jdi --sopcinfo C:/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1_bsp/../../SISTEMA.sopcinfo
+Info: (prueba1.elf) 16 KBytes program size (code + initialized data).
+Info:               107 KBytes free for stack + heap.
+Info: Creating prueba1.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source prueba1.elf >prueba1.objdump
+[prueba1 build complete]
+15:42:32 **** Incremental Build of configuration Nios II for project prueba1_bsp ****
+make all 
+[BSP build complete]
+15:42:33 **** Incremental Build of configuration Nios II for project prueba2 ****
+make all 
+Info: Building ../prueba2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba2_bsp/
+[BSP build complete]
+[prueba2 build complete]
+15:42:35 **** Incremental Build of configuration Nios II for project prueba2_bsp ****
+make all 
+[BSP build complete]
+15:42:41 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:42:48 **** Incremental Build of configuration Nios II for project prueba2 ****
+make all 
+Info: Building ../prueba2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba2_bsp/
+[BSP build complete]
+[prueba2 build complete]
+15:44:39 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:44:40 **** Incremental Build of configuration Nios II for project prueba1_bsp ****
+make all 
+[BSP build complete]
+15:44:41 **** Incremental Build of configuration Nios II for project prueba2 ****
+make all 
+Info: Building ../prueba2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba2_bsp/
+[BSP build complete]
+[prueba2 build complete]
+15:44:42 **** Incremental Build of configuration Nios II for project prueba2_bsp ****
+make all 
+[BSP build complete]
+15:45:06 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+15:45:13 **** Incremental Build of configuration Nios II for project prueba2 ****
+make all 
+Info: Building ../prueba2_bsp/
+C:/intelFPGA/17.0/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba2_bsp/
+[BSP build complete]
+[prueba2 build complete]

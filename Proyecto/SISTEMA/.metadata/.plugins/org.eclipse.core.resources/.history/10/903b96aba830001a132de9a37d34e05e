@@ -1,0 +1,45 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <system.h>
+#include "io.h"
+
+int main (void) {
+	/* Declare volatile pointers to I/O registers (volatile means
+	that IO load
+	* and store instructions will be used to access these pointer
+	locations,
+	* instead of regular memory loads and stores)
+	*/
+	volatile int * ADC = (int *) 0x4041020;
+	volatile int * FC = (int *) 0x4041040;
+	int * memoria = (int *) 0x00; // SDRAM address
+	unsigned int data;
+	unsigned int dataFC;
+	unsigned int data1;
+	unsigned int channel;
+	unsigned int lectura;
+	unsigned int lecturaFija;
+	while (1){
+		*(ADC) = 0; //Get the ADC to start reading the analog data
+		*(FC) = 0;
+		//Proceso con ADC
+		channel = 0;
+		data = *(ADC+channel); //Get the value of the selected channel
+		data1=(data*3.3)*100/(4095*3)-10; //Convert measure (3.3 V supply power, 4095=2^12 max value)
+		printf("El valor de voltaje del canal %d es --> %d Voltios \n",channel,data1);
+
+		//Proceso con FC
+		dataFC = *(FC);
+		printf("El valor del sensor FC-28 es --> %d Voltios \n",dataFC);
+
+		IOWR(memoria,0x00,data1);
+		IOWR(memoria,0x01,25);
+		lectura = IORD(memoria,0x00);
+		lecturaFija = IORD(memoria,0x01);
+		printf("Lectura es: %d \n",lectura);
+		printf("Lectura fija del numero es: %d \n",lecturaFija);
+		usleep(100000);
+		data = data/16; //Ignore the lowest 4 bits
+	}
+	return 0;
+}

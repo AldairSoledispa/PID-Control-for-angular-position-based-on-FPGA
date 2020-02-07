@@ -1,0 +1,34 @@
+# # File gsaved with Nlview version 6.3.8  2013-12-19 bk=1.2992 VDI=34 GEI=35
+# 
+preplace inst SISTEMA.Procesador2.clock_bridge -pg 1
+preplace inst SISTEMA.TIMER -pg 1 -lvl 5 -y 130
+preplace inst SISTEMA.SDRAM -pg 1 -lvl 5 -y 870
+preplace inst SISTEMA.Procesador1.reset_bridge -pg 1
+preplace inst SISTEMA.SRAM1 -pg 1 -lvl 5 -y 700
+preplace inst SISTEMA.LDR -pg 1 -lvl 6 -y 590
+preplace inst SISTEMA -pg 1 -lvl 1 -y 40 -regy -20
+preplace inst SISTEMA.SRAM2 -pg 1 -lvl 5 -y 780
+preplace inst SISTEMA.Procesador2.cpu -pg 1
+preplace inst SISTEMA.Procesador2.reset_bridge -pg 1
+preplace inst SISTEMA.Procesador1 -pg 1 -lvl 4 -y 530
+preplace inst SISTEMA.CLOCK_50 -pg 1 -lvl 2 -y 1030
+preplace inst SISTEMA.Procesador2 -pg 1 -lvl 5 -y 530
+preplace inst SISTEMA.JTAG_UART -pg 1 -lvl 5 -y 30
+preplace inst SISTEMA.Procesador1.cpu -pg 1
+preplace inst SISTEMA.PLL -pg 1 -lvl 5 -y 1070
+preplace inst SISTEMA.FC28 -pg 1 -lvl 6 -y 320
+preplace inst SISTEMA.Procesador1.clock_bridge -pg 1
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)SDRAM.wire,(SLAVE)SISTEMA.sdram_wire) 1 0 5 NJ 940 NJ 940 NJ 940 NJ 940 NJ
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)SISTEMA.reset,(SLAVE)CLOCK_50.clk_in_reset) 1 0 2 NJ 1060 NJ
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)SISTEMA.fc28_external_connection,(SLAVE)FC28.external_connection) 1 0 6 NJ 350 NJ 350 NJ 350 NJ 350 NJ 350 NJ
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)SISTEMA.clk,(SLAVE)CLOCK_50.clk_in) 1 0 2 NJ 1040 NJ
+preplace netloc POINT_TO_POINT<net_container>SISTEMA</net_container>(SLAVE)PLL.refclk,(MASTER)CLOCK_50.clk) 1 2 3 NJ 980 NJ 980 1490
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)SISTEMA.ldr_external_interface,(SLAVE)LDR.external_interface) 1 0 6 NJ 470 NJ 470 NJ 470 NJ 470 NJ 470 NJ
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(MASTER)SISTEMA.clk_sdram,(MASTER)PLL.outclk1) 1 5 2 NJ 1100 NJ
+preplace netloc INTERCONNECT<net_container>SISTEMA</net_container>(SLAVE)Procesador2.debug_mem_slave,(SLAVE)FC28.s1,(MASTER)Procesador1.data_master,(SLAVE)TIMER.s1,(MASTER)Procesador1.instruction_master,(MASTER)Procesador2.data_master,(SLAVE)JTAG_UART.avalon_jtag_slave,(SLAVE)SRAM2.s1,(SLAVE)Procesador1.debug_mem_slave,(SLAVE)SRAM1.s1,(MASTER)Procesador2.instruction_master,(SLAVE)LDR.adc_slave,(SLAVE)SDRAM.s1) 1 3 3 1020 490 1530 390 1950
+preplace netloc EXPORT<net_container>SISTEMA</net_container>(SLAVE)PLL.locked,(SLAVE)SISTEMA.pll_locked) 1 0 5 NJ 1100 NJ 1100 NJ 1020 NJ 1020 NJ
+preplace netloc INTERCONNECT<net_container>SISTEMA</net_container>(MASTER)Procesador2.irq,(SLAVE)TIMER.irq,(SLAVE)JTAG_UART.irq,(MASTER)Procesador1.irq) 1 4 2 1550 490 1930
+preplace netloc INTERCONNECT<net_container>SISTEMA</net_container>(SLAVE)FC28.reset,(MASTER)Procesador2.debug_reset_request,(SLAVE)TIMER.reset,(SLAVE)Procesador2.reset,(SLAVE)Procesador1.reset,(MASTER)CLOCK_50.clk_reset,(SLAVE)SRAM2.reset1,(SLAVE)SRAM1.reset1,(SLAVE)PLL.reset,(MASTER)Procesador1.debug_reset_request,(SLAVE)LDR.reset,(SLAVE)SDRAM.reset,(SLAVE)JTAG_UART.reset) 1 2 4 NJ 1000 1000 1040 1510 370 2010
+preplace netloc FAN_OUT<net_container>SISTEMA</net_container>(SLAVE)LDR.clk,(SLAVE)FC28.clk,(SLAVE)JTAG_UART.clk,(MASTER)PLL.outclk0,(SLAVE)SDRAM.clk,(SLAVE)Procesador1.clk,(SLAVE)Procesador2.clk,(SLAVE)SRAM1.clk1,(SLAVE)TIMER.clk,(SLAVE)SRAM2.clk1) 1 3 3 1000 450 1570 670 1990
+levelinfo -pg 1 0 160 2280
+levelinfo -hier SISTEMA 170 190 610 980 1230 1690 2040 2190

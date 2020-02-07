@@ -1,0 +1,69 @@
+/********************************************************************************
+* This program demonstrates use of parallel ports in the DE10-Standard
+* It performs the following:
+* 1. Displays a counting on the first 7-Segment Display
+********************************************************************************/
+#include <stdio.h>
+#include "io.h"
+
+int * display = (int *) 0x4041030; //HEX[3-0] Display address
+
+void numeroDisplay(int numero);
+
+int main(void)
+{/* Declare volatile pointers to I/O registers (volatile means that IO load and store
+instructions (e.g., ldwio, stwio) will be used to access these pointer locations) */
+	volatile int * memoria = (int *) 0x00; // SDRAM address
+	volatile int * diodos = (int *) 0x4041050; //LED address
+	int numero=0;
+	int delay_count; // volatile so C compile does not remove loop
+	numeroDisplay(0);
+	printf("Programación Exitosa NIOS2\n");
+	usleep(200000);
+	while(1){
+		*diodos=IORD(memoria,0x00);
+		numero=IORD(memoria,0x01);
+		numeroDisplay(numero);
+		usleep(500000); // delay loop
+	}
+}
+
+void numeroDisplay(int numero){
+	printf("El número ingresado es %d\n",numero);
+	switch(numero)
+		{
+			case 0:
+				*display=64;
+				break;
+			case 1:
+				*display=121;
+				break;
+			case 2:
+				*display=36;
+				break;
+			case 3:
+				*display=48;
+				break;
+			case 4:
+				*display=25;
+				break;
+			case 5:
+				*display=18;
+				break;
+			case 6:
+				*display=2;
+				break;
+			case 7:
+				*display=120;
+				break;
+			case 8:
+				*display=0;
+				break;
+			case 9:
+				*display=16;
+				break;
+			default:
+				printf("Ha ingresado un numero no valido\n");
+				break;
+		}
+}

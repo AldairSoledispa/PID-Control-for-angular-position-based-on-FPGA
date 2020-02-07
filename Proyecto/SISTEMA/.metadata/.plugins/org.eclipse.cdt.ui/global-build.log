@@ -1,0 +1,31 @@
+16:25:58 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/16.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../prueba1_bsp//HAL/inc -I../prueba1_bsp/ -I../prueba1_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:49:3: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+   usleep(100000);
+   ^
+Info: Linking prueba1.elf
+nios2-elf-g++  -T'../prueba1_bsp//linker.x' -msys-crt0='../prueba1_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../prueba1_bsp/  -msmallc  -Wl,-Map=prueba1.map   -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o prueba1.elf obj/default/hello_world.o -lm -msys-lib=m
+nios2-elf-insert prueba1.elf --thread_model hal --cpu_name Procesador1 --qsys true --simulation_enabled false --stderr_dev JTAG_UART --stdin_dev JTAG_UART --stdout_dev JTAG_UART --sopc_system_name SISTEMA --quartus_project_dir "C:/Users/Estudiante/Documents/ProyectoBE/PROYECTOBE" --jdi ../..//output_files/ACTIVIDAD5.jdi --sopcinfo C:/Users/Estudiante/Documents/ProyectoBE/PROYECTOBE/software/prueba1_bsp/../../SISTEMA.sopcinfo
+Info: (prueba1.elf) 18 KBytes program size (code + initialized data).
+Info:               105 KBytes free for stack + heap.
+Info: Creating prueba1.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source prueba1.elf >prueba1.objdump
+[prueba1 build complete]
+16:26:03 **** Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/16.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]
+16:26:05 **** Incremental Build of configuration Nios II for project prueba1 ****
+make all 
+Info: Building ../prueba1_bsp/
+C:/intelFPGA/16.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../prueba1_bsp/
+[BSP build complete]
+[prueba1 build complete]

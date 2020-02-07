@@ -1,0 +1,831 @@
+!SESSION 2020-01-10 11:34:30.547 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_EC
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-10 11:35:05.769
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2020-01-10 12:04:20.717 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.8.0_05
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=es_EC
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.cpp.product -pluginCustomization C:/intelfpga/17.0/nios2eds/bin/eclipse_nios2/plugin_customization.ini
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-01-10 12:04:33.759
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 12:05:59.366
+!MESSAGE Indexed 'prueba1' (1 sources, 0 headers) in 0,42 sec: 11 declarations; 43 references; 4 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 12:06:43.291
+!MESSAGE Indexed 'prueba1_bsp' (83 sources, 155 headers) in 2,38 sec: 5.828 declarations; 8.814 references; 23 unresolved inclusions; 3 syntax errors; 67 unresolved names (0,46%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 12:07:57.384
+!MESSAGE Indexed 'prueba2' (1 sources, 0 headers) in 0,02 sec: 6 declarations; 16 references; 2 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 12:08:26.537
+!MESSAGE Indexed 'prueba2_bsp' (82 sources, 150 headers) in 1,22 sec: 5.399 declarations; 8.564 references; 56 unresolved inclusions; 3 syntax errors; 120 unresolved names (0,85%)
+
+!ENTRY org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for F4:
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@241abc2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F4,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.type.hierarchy,Open Type Hierarchy,
+		Open a type hierarchy on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@241abc2,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for F3:
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e5e7753,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(F3,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.opendecl,Open Declaration,
+		Open an editor on the selected element's declaration(s),
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7e5e7753,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for CTRL+SHIFT+G:
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11678469,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.findrefs,References,
+		Search for references to the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@11678469,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for CTRL+G:
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@395115ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+G,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.search.finddecl,Declaration,
+		Search for declarations of the selected element in the workspace,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@395115ac,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for ALT+CTRL+H:
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36c1b6ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.call.hierarchy,Open Call Hierarchy,
+		Open the call hierarchy for the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36c1b6ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for CTRL+SHIFT+H:
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b28ab9b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+H,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.open.type.in.hierarchy,Open Type in Hierarchy,
+		Open a type in the type hierarchy view,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b28ab9b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16c1345b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.navigate.opentype,Open Element,
+		Open an element in an Editor,
+		Category(org.eclipse.cdt.ui.category.source,Source,Source commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@16c1345b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@278cbf5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.text.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.cdt.ui.category.refactoring,Refactor - C++,C/C++ Refactorings,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@278cbf5a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-10 12:09:01.304
+!MESSAGE A conflict occurred for ALT+CTRL+I:
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c41931a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cEditorScope,,,system)
+Binding(ALT+CTRL+I,
+	ParameterizedCommand(Command(org.eclipse.cdt.ui.edit.open.include.browser,Open Include Browser,
+		Open an include browser on the selected element,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1c41931a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.cdt.ui.cViewScope,,,system)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:28:15.339
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:28:17.624
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:32:07.132
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:32:09.273
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:32:57.830
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:33:00.011
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:34:01.311
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:34:03.499
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:45:33.332
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:45:35.385
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:46:10.447
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:46:13.353
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:48:18.029
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:48:20.147
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:49:49.007
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:49:51.148
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:49:56.803
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:49:58.878
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:50:36.616
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:50:37.376
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:50:39.659
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:50:45.557
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:50:47.623
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:55:48.925
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:55:49.437
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:55:51.511
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:55:56.553
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:55:58.631
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:59:02.813
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:59:04.744
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:59:06.849
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:59:13.795
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 12:59:16.299
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:03:35.630
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:03:38.561
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:04:40.004
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:04:42.222
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:05:08.951
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:05:11.029
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:05:40.568
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:05:42.646
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:06:48.303
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:06:50.619
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:07:31.320
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:07:32.743
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:07:35.589
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:08:01.998
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:08:03.925
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:12:27.845
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:12:29.923
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:14:04.313
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:14:06.548
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:17:18.103
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:17:20.027
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:18:25.589
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:18:28.342
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:20:28.232
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:20:30.360
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:21:56.924
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:21:59.127
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:23:44.655
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:23:46.707
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:24:56.143
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:24:58.207
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:25:42.037
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:25:44.118
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:26:46.335
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:26:48.424
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:28:34.054
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:28:36.395
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=1, --stop] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:28:36.708
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:28:40.189
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=1, --go, /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:28:40.189
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:29:14.205
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:29:16.503
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --stop] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:29:16.816
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:29:19.289
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=0, --go, /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:29:19.291
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:30:12.115
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:30:14.565
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=1, --stop, --accept-bad-sysid] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:30:14.877
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:30:17.828
+!MESSAGE Failed Executing: [nios2-download, '--cable=DE-SoC on localhost [USB-1]', --device=2, --instance=1, --go, --accept-bad-sysid, /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf] return code: 2, no processors found
+
+!ENTRY com.altera.sbtgui.launch 4 0 2020-01-10 13:30:17.828
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:30:47.231
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:30:49.167
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:31:19.228
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:31:21.287
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:34:03.525
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 13:34:06.006
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:25:14.181
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:25:16.525
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:25:55.755
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:25:57.997
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:27:12.726
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:27:15.217
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:30:18.179
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:30:20.436
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:31:47.312
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:31:49.245
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:34:55.527
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:34:57.899
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:36:12.408
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:36:14.550
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:37:04.501
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:37:06.565
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:38:41.022
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:38:43.428
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:40:02.743
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:40:04.776
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:41:11.358
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:41:13.643
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:44:31.919
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:44:33.798
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:45:43.602
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:45:45.999
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:49:29.773
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:49:32.133
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:50:27.182
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:50:29.498
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:51:27.988
+!MESSAGE Terminated Launch with connection: 21DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:51:28.769
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:51:31.003
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:52:28.086
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:52:30.217
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:57:04.937
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:57:07.217
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:58:12.696
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 14:58:15.028
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:03:50.628
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:03:52.837
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:06:54.762
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:06:57.225
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:09:07.993
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:09:10.434
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:11:18.725
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:11:20.804
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:13:46.545
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:13:48.704
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:16:21.410
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:16:23.647
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 15:18:16.129
+!MESSAGE Indexed 'aux2_bsp' (82 sources, 60 headers) in 0,55 sec: 1.207 declarations; 2.583 references; 113 unresolved inclusions; 6 syntax errors; 191 unresolved names (4,80%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2020-01-10 15:18:17.800
+!MESSAGE Indexed 'aux2' (1 sources, 0 headers) in 0,00 sec: 1 declarations; 1 references; 1 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:21:12.623
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:21:14.984
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:22:03.388
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:22:05.491
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:23:00.674
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:23:01.455
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:23:03.638
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:23:08.718
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:23:10.999
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:24:01.033
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:24:01.854
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:24:03.986
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:24:08.947
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:24:11.244
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:25:49.258
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:25:49.799
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:25:52.077
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:25:56.968
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:25:59.439
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:27:26.798
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:27:27.585
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:27:29.991
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:27:34.078
+!MESSAGE Terminated Launch with connection: 21DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:27:34.717
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:27:37.012
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:30:13.451
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:30:14.420
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:30:16.673
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:30:20.942
+!MESSAGE Terminated Launch with connection: 21DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:30:21.785
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:30:24.201
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:31:51.799
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:31:52.693
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:31:54.931
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:32:00.163
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:32:02.623
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:35:13.050
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:35:13.722
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:35:16.043
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:35:20.923
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:35:23.314
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:35:59.417
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:36:00.215
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:36:02.510
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:36:07.135
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:36:09.521
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:38:29.207
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:38:30.041
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:38:32.515
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:38:37.520
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:38:39.816
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/aux2/aux2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:39:48.869
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:39:49.478
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:39:52.005
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:39:56.939
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:39:59.351
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:42:42.683
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:42:43.458
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:42:45.670
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:42:50.536
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:42:52.888
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:45:07.422
+!MESSAGE Terminated Launch with connection: 20DE-SoC on localhost [USB-1]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:45:08.208
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:45:10.403
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=0 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba1/prueba1.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:45:15.313
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --stop --accept-bad-sysid]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2020-01-10 15:45:17.755
+!MESSAGE Executing: [C:/intelfpga/17.0/quartus\bin64\cygwin\bin\bash.exe, -c, nios2-download '--cable=DE-SoC on localhost [USB-1]' --device=2 --instance=1 --go --accept-bad-sysid /cygdrive/c/Users/Estudiante/Desktop/ProyectoMauricio/PROYECTOBE/software/prueba2/prueba2.elf]

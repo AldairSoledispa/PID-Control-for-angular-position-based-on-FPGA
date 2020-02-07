@@ -1,0 +1,11 @@
+/********************************************************************************
+* This program demonstrates use of parallel ports in the DE10-Standard
+* It performs the following:
+* 1. Displays a counting on the first 7-Segment Display
+********************************************************************************/
+#include <stdio.h>
+#include "io.h"
+int main(void)
+{
+	print("Hello world NIOSII");
+}

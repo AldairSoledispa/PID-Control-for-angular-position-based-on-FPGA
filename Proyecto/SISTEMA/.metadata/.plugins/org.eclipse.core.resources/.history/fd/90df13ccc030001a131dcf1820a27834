@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include "io.h"
+
+int main (void) {
+	/* Declare volatile pointers to I/O registers (volatile means
+	that IO load
+	* and store instructions will be used to access these pointer
+	locations,
+	* instead of regular memory loads and stores)
+	*/
+	int * memoria = (int *) 0x00; // SDRAM address
+
+	unsigned int lectura;
+	unsigned int lecturaFija;
+	unsigned int lectura_FC;
+	while (1){
+		lectura = IORD(memoria,0x00);
+		lecturaFija = IORD(memoria,0x01);
+		lectura_FC = IORD(memoria,0x02);
+		printf("Lectura es: %d \n",lectura);
+		printf("Lectura fija del numero es: %d \n",lecturaFija);
+		printf("Lectura es: %d \n",lectura_FC);
+		usleep(100000);
+	}
+	return 0;
+}

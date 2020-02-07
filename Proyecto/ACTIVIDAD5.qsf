@@ -1,0 +1,177 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 2017  Intel Corporation. All rights reserved.
+# Your use of Intel Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Intel Program License 
+# Subscription Agreement, the Intel Quartus Prime License Agreement,
+# the Intel FPGA IP License Agreement, or other applicable license
+# agreement, including, without limitation, that your use is for
+# the sole purpose of programming logic devices manufactured by
+# Intel and sold by Intel or its authorized distributors.  Please
+# refer to the applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus Prime
+# Version 17.1.0 Build 590 10/25/2017 SJ Standard Edition
+# Date created = 17:01:27  June 16, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ACTIVIDAD5_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus Prime software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone V"
+set_global_assignment -name DEVICE 5CSXFC6D6F31C6
+set_global_assignment -name TOP_LEVEL_ENTITY SISTEMA
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 17.1.0
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "17:01:27  JUNE 16, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "17.0.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 256
+set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
+set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name ENABLE_OCT_DONE OFF
+set_global_assignment -name STRATIXV_CONFIGURATION_SCHEME "PASSIVE SERIAL"
+set_global_assignment -name USE_CONFIGURATION_DEVICE ON
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN ON
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_global_assignment -name ACTIVE_SERIAL_CLOCK FREQ_100MHZ
+set_location_assignment PIN_AF14 -to clk_clk
+set_location_assignment PIN_AH12 -to clk_sdram_clk
+set_location_assignment PIN_AJ4 -to reset_reset_n
+set_location_assignment PIN_AJ14 -to sdram_wire_addr[12]
+set_location_assignment PIN_AH13 -to sdram_wire_addr[11]
+set_location_assignment PIN_AG12 -to sdram_wire_addr[10]
+set_location_assignment PIN_AG13 -to sdram_wire_addr[9]
+set_location_assignment PIN_AH15 -to sdram_wire_addr[8]
+set_location_assignment PIN_AF15 -to sdram_wire_addr[7]
+set_location_assignment PIN_AD14 -to sdram_wire_addr[6]
+set_location_assignment PIN_AC14 -to sdram_wire_addr[5]
+set_location_assignment PIN_AB15 -to sdram_wire_addr[4]
+set_location_assignment PIN_AE14 -to sdram_wire_addr[3]
+set_location_assignment PIN_AG15 -to sdram_wire_addr[2]
+set_location_assignment PIN_AH14 -to sdram_wire_addr[1]
+set_location_assignment PIN_AK14 -to sdram_wire_addr[0]
+set_location_assignment PIN_AF13 -to sdram_wire_ba[0]
+set_location_assignment PIN_AJ12 -to sdram_wire_ba[1]
+set_location_assignment PIN_AF11 -to sdram_wire_cas_n
+set_location_assignment PIN_AK13 -to sdram_wire_cke
+set_location_assignment PIN_AG11 -to sdram_wire_cs_n
+set_location_assignment PIN_AJ5 -to sdram_wire_dq[15]
+set_location_assignment PIN_AJ6 -to sdram_wire_dq[14]
+set_location_assignment PIN_AH7 -to sdram_wire_dq[13]
+set_location_assignment PIN_AH8 -to sdram_wire_dq[12]
+set_location_assignment PIN_AH9 -to sdram_wire_dq[11]
+set_location_assignment PIN_AJ9 -to sdram_wire_dq[10]
+set_location_assignment PIN_AJ10 -to sdram_wire_dq[9]
+set_location_assignment PIN_AH10 -to sdram_wire_dq[8]
+set_location_assignment PIN_AJ11 -to sdram_wire_dq[7]
+set_location_assignment PIN_AK11 -to sdram_wire_dq[6]
+set_location_assignment PIN_AG10 -to sdram_wire_dq[5]
+set_location_assignment PIN_AK9 -to sdram_wire_dq[4]
+set_location_assignment PIN_AK8 -to sdram_wire_dq[3]
+set_location_assignment PIN_AK7 -to sdram_wire_dq[2]
+set_location_assignment PIN_AJ7 -to sdram_wire_dq[1]
+set_location_assignment PIN_AK6 -to sdram_wire_dq[0]
+set_location_assignment PIN_AB13 -to sdram_wire_dqm[0]
+set_location_assignment PIN_AK12 -to sdram_wire_dqm[1]
+set_location_assignment PIN_AE13 -to sdram_wire_ras_n
+set_location_assignment PIN_AA13 -to sdram_wire_we_n
+set_location_assignment PIN_AD21 -to hex5_4_export[0]
+set_location_assignment PIN_W17 -to hex3_0_export[0]
+set_location_assignment PIN_V18 -to hex3_0_export[1]
+set_location_assignment PIN_AG17 -to hex3_0_export[2]
+set_location_assignment PIN_AG16 -to hex3_0_export[3]
+set_location_assignment PIN_AH17 -to hex3_0_export[4]
+set_location_assignment PIN_AG18 -to hex3_0_export[5]
+set_location_assignment PIN_AH18 -to hex3_0_export[6]
+set_location_assignment PIN_AF16 -to hex3_0_export[7]
+set_location_assignment PIN_V16 -to hex3_0_export[8]
+set_location_assignment PIN_AE16 -to hex3_0_export[9]
+set_location_assignment PIN_AD17 -to hex3_0_export[10]
+set_location_assignment PIN_AE18 -to hex3_0_export[11]
+set_location_assignment PIN_AE17 -to hex3_0_export[12]
+set_location_assignment PIN_V17 -to hex3_0_export[13]
+set_location_assignment PIN_AA21 -to hex3_0_export[14]
+set_location_assignment PIN_AB17 -to hex3_0_export[15]
+set_location_assignment PIN_AA18 -to hex3_0_export[16]
+set_location_assignment PIN_Y17 -to hex3_0_export[17]
+set_location_assignment PIN_Y18 -to hex3_0_export[18]
+set_location_assignment PIN_AF18 -to hex3_0_export[19]
+set_location_assignment PIN_W16 -to hex3_0_export[20]
+set_location_assignment PIN_Y19 -to hex3_0_export[21]
+set_location_assignment PIN_W19 -to hex3_0_export[22]
+set_location_assignment PIN_AD19 -to hex3_0_export[23]
+set_location_assignment PIN_AA20 -to hex3_0_export[24]
+set_location_assignment PIN_AC20 -to hex3_0_export[25]
+set_location_assignment PIN_AA19 -to hex3_0_export[26]
+set_location_assignment PIN_AD20 -to hex3_0_export[27]
+set_location_assignment PIN_AG22 -to hex5_4_export[1]
+set_location_assignment PIN_AE22 -to hex5_4_export[2]
+set_location_assignment PIN_AE23 -to hex5_4_export[3]
+set_location_assignment PIN_AG23 -to hex5_4_export[4]
+set_location_assignment PIN_AF23 -to hex5_4_export[5]
+set_location_assignment PIN_AH22 -to hex5_4_export[6]
+set_location_assignment PIN_AF21 -to hex5_4_export[7]
+set_location_assignment PIN_AG21 -to hex5_4_export[8]
+set_location_assignment PIN_AF20 -to hex5_4_export[9]
+set_location_assignment PIN_AG20 -to hex5_4_export[10]
+set_location_assignment PIN_AE19 -to hex5_4_export[11]
+set_location_assignment PIN_AF19 -to hex5_4_export[12]
+set_location_assignment PIN_AB21 -to hex5_4_export[13]
+set_location_assignment PIN_AK4 -to pb_export[0]
+set_location_assignment PIN_AA14 -to pb_export[1]
+set_location_assignment PIN_AA15 -to pb_export[2]
+set_location_assignment PIN_AA24 -to led_export[0]
+set_location_assignment PIN_AB23 -to led_export[1]
+set_location_assignment PIN_AC23 -to led_export[2]
+set_location_assignment PIN_AD24 -to led_export[3]
+set_location_assignment PIN_AG25 -to led_export[4]
+set_location_assignment PIN_AF25 -to led_export[5]
+set_location_assignment PIN_AB22 -to led_export[8]
+set_location_assignment PIN_AF24 -to led_export[7]
+set_location_assignment PIN_AE24 -to led_export[6]
+set_location_assignment PIN_AC22 -to led_export[9]
+set_location_assignment PIN_AB30 -to sw_export[0]
+set_location_assignment PIN_Y27 -to sw_export[1]
+set_location_assignment PIN_AB28 -to sw_export[2]
+set_location_assignment PIN_AC30 -to sw_export[3]
+set_location_assignment PIN_W25 -to sw_export[4]
+set_location_assignment PIN_V25 -to sw_export[5]
+set_location_assignment PIN_AC28 -to sw_export[6]
+set_location_assignment PIN_AD30 -to sw_export[7]
+set_location_assignment PIN_AC29 -to sw_export[8]
+set_location_assignment PIN_AA30 -to sw_export[9]
+set_global_assignment -name QSYS_FILE SISTEMA.qsys
+set_location_assignment PIN_Y21 -to ldr_external_interface_cs_n
+set_location_assignment PIN_W22 -to ldr_external_interface_din
+set_location_assignment PIN_V23 -to ldr_external_interface_dout
+set_location_assignment PIN_W24 -to ldr_external_interface_sclk
+set_location_assignment PIN_W15 -to fc_28_external_connection_export
+set_location_assignment PIN_AA12 -to fc28_external_connection_export
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top
